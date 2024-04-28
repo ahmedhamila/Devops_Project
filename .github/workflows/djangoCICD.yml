@@ -43,6 +43,5 @@ jobs:
       - name: Run Django server
         run: |
           python manage.py runserver &
-          background : true
       - name: Test debug
         run: echo "All Good"
